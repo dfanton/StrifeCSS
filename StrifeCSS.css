@@ -1,0 +1,363 @@
+#header-img {
+background:url(%%badrooksnoo%%) no-repeat;
+display:block;
+width:51px;
+height:71px;
+position:absolute;
+top:40px;
+left:40px;
+}
+
+#header-bottom-right {
+top:auto;
+bottom:0;
+background:url(%%tabmenu%%) repeat-x;
+color:#c3dee7;
+}
+
+#header-bottom-left {
+height:130px;
+background:url(%%rookbg%%) no-repeat #323232;
+padding:0;
+}
+
+#userbarToggle {
+background:url(%%tabmenu%%) repeat-x;
+color:#c3dee7;
+}
+
+.side .md ol {
+position:absolute;
+top:60px;
+left:350px;
+z-index:10000;
+list-style: none outside none;
+}
+
+.side .md ol>li {
+background:#1e1e1e;
+padding:4px;
+padding-right:6px;
+padding-left:0px;
+color:#ccc;
+border-radius:7px;
+line-height:150%;
+}
+
+.side .md ol>li a:hover{
+color:#0cbbe7;
+}
+
+.side .md ol>li:before {
+content: "Notice";
+background: url(%%strifegreen%%) #6ba04e repeat-x;
+border-radius:7px;
+font-weight:bold;
+font-size:120%;
+color:#fff;
+padding:7px;
+margin-right:7px;
+}
+
+body {
+background:url(%%bgbottom%%) #1e1e1e no-repeat;
+background-position:bottom center;
+background-attachment:fixed;
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#bbb;
+}
+
+.content {
+background:url(%%contentbg%%);
+}
+
+.res-commentBoxes .comment,.res-commentBoxes .comment .comment,.res-commentBoxes .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment {
+margin-right:0;
+background:url(%%contentbg%%)!important;
+border: 1px solid #1e1e1e!important;
+}
+
+.pagename a {
+display:block;
+height:73px;
+background:url(%%logoshad%%) no-repeat;
+font-size:0;
+width:190px;
+left:119px;
+top:49px;
+position:absolute;
+margin:0;
+padding:0;
+}
+
+.tabmenu {
+position:absolute;
+top:119px;
+left:30px;
+display:block;
+padding-top:10px;
+padding-left:3px;
+padding-right:3px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+background:url(%%tabmenu%%) repeat-x;
+border-bottom:1px solid #323232;
+}
+
+.tabmenu li a {
+background:none;
+margin-bottom:4px;
+position:relative;
+top:-5px;
+bottom:auto;
+color:#c3dee7;
+font-weight:400;
+}
+
+.tabmenu li.selected a {
+padding-top:3px;
+padding-bottom:5px;
+font-weight:700;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+color:#0cbbe7;
+background:#1e1e1e;
+border-top:1px solid #323232;
+border-left:1px solid #323232;
+border-right:1px solid #323232;
+border-bottom:1px solid #1e1e1e;
+}
+
+.thing .title {
+font-weight:700;
+color:#0f7ea2;
+}
+
+.side {
+padding-left:10px;
+border-left:1px solid #323232;
+border-bottom:1px solid #323232;
+margin-right:0;
+padding-right:5px;
+border-bottom-left-radius:7px;
+background:#1e1e1e;
+color:#bbb;
+}
+
+.sidebox .spacer {
+background:#1e1e1e;
+color:#bbb;
+}
+
+.icon-menu a {
+background:inherit;
+}
+
+.titlebox h1 a {
+color:#bbb;
+}
+
+.sidecontentbox .content {
+border-top:1px solid #323232;
+border-bottom:1px solid #323232;
+border-right:0;
+border-left:1px solid #323232;
+background:#232323;
+}
+
+.sidecontentbox a.helplink {
+margin-right:5px;
+}
+
+.sidecontentbox .title {
+border:1px solid #323232;
+background:#262626;
+padding:3px 5px;
+}
+
+.sidecontentbox .title h1 {
+color:#bbb;
+font-weight:700;
+}
+
+.titlebox form.toggle, .leavemoderator {
+background: inherit;
+}
+
+textarea {
+background:#303030;
+color:#bbb;
+border:1px solid #202020;
+}
+
+.link .usertext .md {
+background:#1e1e1e;
+border:1px solid #323232;
+margin-left: 30px;
+}
+
+.linkinfo {
+background:inherit;
+border:1px solid #323232;
+}
+
+#search input {
+display:block;
+border-radius:7px;
+background:#232323;
+}
+
+#search input[type=text] {
+display:block;
+padding-left:5px;
+padding-right:0;
+border:1px solid #323232;
+color:#bbb;
+}
+
+.stickied {
+display:block;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.morelink {
+background:url(%%tabmenu%%) repeat-x;
+border-radius:7px;
+border:0;
+}
+
+.morelink:hover {
+background:url(%%tabmenulight%%) repeat-x;
+border-radius:7px;
+border:0;
+}
+
+.pagename {
+color:#fff;
+float:right;
+}
+
+.md h1 a {
+display:block;
+text-align:center;
+position:relative;
+background:url(%%strifegreen%%) repeat-x;
+border-radius:7px;
+border:0;
+font-size:100%!important;
+font-weight:700;
+letter-spacing:-1px;
+line-height:29px;
+height:29px;
+color:#dde8be!important;
+margin:8px;
+}
+
+.md h1 a:hover {
+background:url(%%strifegreenlight%%) repeat-x;
+border-radius:7px;
+border:0;
+color:#fff!important;
+}
+
+.morelink .nub {
+display:block;
+width:0;
+}
+
+#header,#sr-header-area {
+border-bottom:1px solid #323232;
+}
+
+.arrow.upmod {
+background:url(%%upmod%%);
+background-position:0;
+height:19px;
+}
+
+.arrow.up {
+background:url(%%up%%);
+background-position:0;
+height:19px;
+}
+
+.arrow.downmod {
+background:url(%%downmod%%);
+background-position:0;
+height:19px;
+}
+
+.arrow.down {
+background:url(%%down%%);
+background-position:0;
+height:19px;
+}
+
+div .RES-keyNav-activeElement,div .commentarea .RES-keyNav-activeElement .md,div .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+background:#232323!important;
+}
+
+#header-bottom-right a,.user,.separator,.morelink a,.res-nightmode .morelink a {
+color:#c3dee7;
+}
+
+#header-bottom-right a:hover,.tabmenu li a:hover,.res-nightmode .morelink a:hover {
+color:#fff;
+}
+
+.infobar {
+color: #202020;
+}
+
+.roundfield {
+background:#232323;
+}
+
+.content.submit .info-notice {
+background:#232323;
+border:none;
+}
+
+.roundfield textarea, .roundfield input[type=text], .roundfield input[type=url], .roundfield input[type=password], .roundfield input[type=number] {
+background:#303030;
+border:1px solid #323232;
+color:#bbb;
+}
+
+.thing .title:visited, .thing.visited .title {
+color: #643e87;
+}
+
+.RESDialogSmall > h3 {
+color:#bbb;
+background:#232323;
+border-bottom:#323232;
+}
+
+.RESDialogSmall {
+border: 1px solid #323232;
+background:#232323;
+}
+
+div .RESSubscriptionButton {
+border: 1px solid #323232;
+}
+
+div .RESSubscriptionButton:hover {
+background: #323232;
+}
+
+.expando-button {
+background:none;
+}
+
+div .comment .md p > a:visited {
+color: #643e87;
+}
+
+div .usertext-edit .RESDialogSmall .md.RESDialogContents {
+border: none;
+background: #1e1e1e !important;
+color:#bbbbbb;
+}
