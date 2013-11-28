@@ -361,3 +361,7 @@ border: none;
 background: #1e1e1e !important;
 color:#bbbbbb;
 }
+
+div .NERPageMarker {
+background: url(%%contentbg%%); 
+}
